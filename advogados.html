@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silva & Associados | Advocacia de Excelência</title>
+    <meta name="description" content="Escritório de advocacia especializado em direito empresarial, tributário, civil e trabalhista. Atendimento personalizado e soluções jurídicas eficientes.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="https://i.imgur.com/fPvaRHk.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <!-- Barra superior com informações de contato -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> (11) 3456-7890</span>
+                <span><i class="fas fa-envelope"></i> contato@silvaadvocacia.com.br</span>
+                <span><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000 - São Paulo</span>
+            </div>
+            <div class="top-right">
+                <div class="language-selector">
+                    <a href="#" class="active">PT</a>
+                    <a href="#">EN</a>
+                    <a href="#">ES</a>
+                </div>
+                <div class="social-media">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cabeçalho com logo e menu de navegação -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://i.imgur.com/8Klzrj3.png" alt="Silva & Associados">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul class="main-menu">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="sobre.html">O Escritório</a></li>
+                    <li class="dropdown">
+                        <a href="areas-atuacao.html">Áreas de Atuação <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="civil.html">Direito Civil</a></li>
+                            <li><a href="trabalhista.html">Direito Trabalhista</a></li>
+                            <li><a href="tributario.html">Direito Tributário</a></li>
+                            <li><a href="empresarial.html">Direito Empresarial</a></li>
+                            <li><a href="familia.html">Direito de Família</a></li>
+                            <li><a href="penal.html">Direito Penal</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="equipe.html">Equipe</a></li>
+                    <li><a href="blog.html">Publicações</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="client-area">
+                    <a href="cliente.html" class="btn-client"><i class="fas fa-user"></i> Área do Cliente</a>
+                </div>
+                <div class="search-toggle">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- Barra de pesquisa expandível -->
+        <div class="search-bar">
+            <div class="container">
+                <form action="#" method="get" class="search-form">
+                    <input type="text" name="search" placeholder="O que você procura?">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <button class="search-close"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="mobile-logo">
+                <img src="https://i.imgur.com/8Klzrj3.png" alt="Silva & Associados">
+            </div>
+            <button class="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="mobile-menu-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">O Escritório</a></li>
+            <li class="mobile-dropdown">
+                <a href="javascript:void(0)">Áreas de Atuação <i class="fas fa-chevron-down"></i></a>
+                <ul class="mobile-dropdown-menu">
+                    <li><a href="civil.html">Direito Civil</a></li>
+                    <li><a href="trabalhista.html">Direito Trabalhista</a></li>
+                    <li><a href="tributario.html">Direito Tributário</a></li>
+                    <li><a href="empresarial.html">Direito Empresarial</a></li>
+                    <li><a href="familia.html">Direito de Família</a></li>
+                    <li><a href="penal.html">Direito Penal</a></li>
+                </ul>
+            </li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="blog.html">Publicações</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="cliente.html" class="highlight">Área do Cliente</a></li>
+        </ul>
+        <div class="mobile-contact">
+            <p><i class="fas fa-phone"></i> (11) 3456-7890</p>
+            <p><i class="fas fa-envelope"></i> contato@silvaadvocacia.com.br</p>
+            <div class="mobile-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner principal com slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <div class="slide-content" data-aos="fade-right" data-aos-delay="300">
+                    <span class="slide-subtitle">Excelência Jurídica</span>
+                    <h1>Soluções Jurídicas<br>Personalizadas</h1>
+                    <p>Atendimento especializado para pessoas físicas e jurídicas com foco em resultados</p>
+                    <div class="slide-buttons">
+                        <a href="contato.html" class="btn-primary">Agende uma Consulta</a>
+                        <a href="sobre.html" class="btn-outline">Conheça o Escritório</a>
+                    </div>
+                </div>
+                <div class="slide-bg" style="background-image: url('https://i.imgur.com/JZt2Vca.jpg');"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content" data-aos="fade-right" data-aos-delay="300">
+                    <span class="slide-subtitle">Equipe Especializada</span>
+                    <h1>Profissionais<br>Altamente Qualificados</h1>
+                    <p>Advogados com formação nas melhores instituições e experiência em casos complexos</p>
+                    <div class="slide-buttons">
+                        <a href="equipe.html" class="btn-primary">Conheça Nossa Equipe</a>
+                        <a href="casos.html" class="btn-outline">Casos de Sucesso</a>
+                    </div>
+                </div>
+                <div class="slide-bg" style="background-image: url('https://i.imgur.com/0XoMcZF.jpg');"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content" data-aos="fade-right" data-aos-delay="300">
+                    <span class="slide-subtitle">Tradição e Inovação</span>
+                    <h1>Mais de 20 Anos<br>de Experiência</h1>
+                    <p>Combinamos tradição jurídica com abordagem moderna e tecnológica</p>
+                    <div class="slide-buttons">
+                        <a href="sobre.html" class="btn-primary">Nossa História</a>
+                        <a href="contato.html" class="btn-outline">Entre em Contato</a>
+                    </div>
+                </div>
+                <div class="slide-bg" style="background-image: url('https://i.imgur.com/Ot7zIPc.jpg');"></div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-slide" aria-label="Slide anterior"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-slide" aria-label="Próximo slide"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about-section">
+                <span class="scroll-text">Rolar para baixo</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre o Escritório -->
+    <section id="about-section" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <span class="section-subtitle">Sobre Nós</span>
+                    <h2 class="section-title">Tradição, Excelência e Compromisso com Resultados</h2>
+                    <p class="lead">Fundado em 2003, o escritório Silva & Associados se consolidou como referência em assessoria jurídica de alta qualidade.</p>
+                    <p>Nossa equipe é formada por profissionais com sólida formação acadêmica e vasta experiência prática, comprometidos em oferecer soluções jurídicas eficientes e personalizadas para cada cliente.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-text">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-text">Casos de Sucesso</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-text">Profissionais</span>
+                        </div>
+                    </div>
+                    <a href="sobre.html" class="btn-primary">Saiba Mais</a>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/ZWTa5vw.jpg" alt="Escritório Silva & Associados">
+                        <div class="experience-badge">
+                            <span class="years">20</span>
+                            <span class="text">Anos de<br>Experiência</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de áreas de atuação -->
+    <section class="practice-areas">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Especialidades</span>
+                <h2 class="section-title">Áreas de Atuação</h2>
+                <p class="section-description">Oferecemos serviços jurídicos especializados em diversas áreas do direito, com foco na excelência e resultados</p>
+            </div>
+            <div class="areas-grid">
+                <div class="area-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="area-icon">
+                        <img src="https://i.imgur.com/YtUBv5G.png" alt="Ícone Direito Civil">
+                    </div>
+                    <h3>Direito Civil</h3>
+                    <p>Contratos, responsabilidade civil, direitos reais e obrigações. Assessoria completa em questões civis.</p>
+                    <a href="civil.html" class="btn-arrow">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="area-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="area-icon">
+                        <img src="https://i.imgur.com/L2JTWvP.png" alt="Ícone Direito Trabalhista">
+                    </div>
+                    <h3>Direito Trabalhista</h3>
+                    <p>Relações de trabalho, reclamações trabalhistas e direitos do empregado. Consultoria preventiva e contenciosa.</p>
+                    <a href="trabalhista.html" class="btn-arrow">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="area-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="area-icon">
+                        <img src="https://i.imgur.com/9XcNrx4.png" alt="Ícone Direito Tributário">
+                    </div>
+                    <h3>Direito Tributário</h3>
+                    <p>Planejamento tributário, defesa em autuações fiscais e recuperação de tributos pagos indevidamente.</p>
+                    <a href="tributario.html" class="btn-arrow">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="area-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="area-icon">
+                        <img src="https://i.imgur.com/KZjFh6N.png" alt="Ícone Direito Empresarial">
+                    </div>
+                    <h3>Direito Empresarial</h3>
+                    <p>Constituição de empresas, contratos comerciais, fusões e aquisições, e recuperação judicial.</p>
+                    <a href="empresarial.html" class="btn-arrow">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="area-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="area-icon">
+                        <img src="https://i.imgur.com/vDSxR8B.png" alt="Ícone Direito de Família">
+                    </div>
+                    <h3>Direito de Família</h3>
+                    <p>Divórcio, guarda de filhos, pensão alimentícia, inventários e planejamento sucessório.</p>
+                    <a href="familia.html" class="btn-arrow">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="area-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="area-icon">
+                        <img src="https://i.imgur.com/HfGXzLW.png" alt="Ícone Direito Penal">
+                    </div>
+                    <h3>Direito Penal</h3>
+                    <p>Defesa criminal, crimes econômicos, compliance penal e investigações corporativas.</p>
+                    <a href="penal.html" class="btn-arrow">Saiba Mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="view-all-areas" data-aos="fade-up">
+                <a href="areas-atuacao.html" class="btn-secondary">Ver Todas as Áreas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Por que nos escolher -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="why-choose-content">
+                <div class="why-choose-text" data-aos="fade-right">
+                    <span class="section-subtitle">Por que nos escolher</span>
+                    <h2 class="section-title">Excelência Jurídica com Foco no Cliente</h2>
+                    <p class="lead">Nosso compromisso é oferecer serviços jurídicos de alta qualidade, com atendimento personalizado e resultados efetivos.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Equipe Especializada</h3>
+                                <p>Advogados com formação nas melhores instituições e constante atualização.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Foco em Resultados</h3>
+                                <p>Estratégias jurídicas eficientes para alcançar os objetivos dos clientes.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Atendimento Personalizado</h3>
+                                <p>Cada cliente recebe atenção individualizada e soluções sob medida.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Tecnologia Avançada</h3>
+                                <p>Utilizamos ferramentas tecnológicas para otimizar processos e resultados.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-choose-image" data-aos="fade-left">
+                    <img src="https://i.imgur.com/8bHrLXh.jpg" alt="Equipe de advogados em reunião">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"O escritório Silva & Associados foi fundamental para a resolução do nosso caso. Profissionais extremamente competentes e atenciosos."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://i.imgur.com/7oM8TdY.jpg" alt="João Pereira">
+                            <div>
+                                <h4>João Pereira</h4>
+                                <p>Diretor Financeiro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de advogados em destaque -->
+    <section class="featured-lawyers">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Nossos Profissionais</span>
+                <h2 class="section-title">Conheça Nossa Equipe</h2>
+                <p class="section-description">Advogados especializados e comprometidos com a excelência no atendimento e resultados</p>
+            </div>
+            <div class="lawyers-slider" data-aos="fade-up">
+                <div class="lawyer-card">
+                    <div class="lawyer-img">
+                        <img src="https://i.imgur.com/7oM8TdY.jpg" alt="Dr. Carlos Silva">
+                        <div class="lawyer-overlay">
+                            <div class="lawyer-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lawyer-info">
+                        <h3>Dr. Carlos Silva</h3>
+                        <p class="lawyer-position">Sócio Fundador</p>
+                        <p class="lawyer-specialty">Direito Empresarial e Tributário</p>
+                        <a href="advogado-carlos.html" class="btn-arrow">Ver Perfil <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="lawyer-card">
+                    <div class="lawyer-img">
+                        <img src="https://i.imgur.com/K9XA3mB.jpg" alt="Dra. Ana Oliveira">
+                        <div class="lawyer-overlay">
+                            <div class="lawyer-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lawyer-info">
+                        <h3>Dra. Ana Oliveira</h3>
+                        <p class="lawyer-position">Sócia</p>
+                        <p class="lawyer-specialty">Direito Civil e Família</p>
+                        <a href="advogado-ana.html" class="btn-arrow">Ver Perfil <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="lawyer-card">
+                    <div class="lawyer-img">
+                        <img src="https://i.imgur.com/oCiRnUo.jpg" alt="Dr. Marcos Santos">
+                        <div class="lawyer-overlay">
+                            <div class="lawyer-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lawyer-info">
+                        <h3>Dr. Marcos Santos</h3>
+                        <p class="lawyer-position">Advogado Sênior</p>
+                        <p class="lawyer-specialty">Direito Trabalhista</p>
+                        <a href="advogado-marcos.html" class="btn-arrow">Ver Perfil <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="lawyer-card">
+                    <div class="lawyer-img">
+                        <img src="https://i.imgur.com/JZt2Vca.jpg" alt="Dra. Juliana Costa">
+                        <div class="lawyer-overlay">
+                            <div class="lawyer-social">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                                <a href="#"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lawyer-info">
+                        <h3>Dra. Juliana Costa</h3>
+                        <p class="lawyer-position">Advogada Sênior</p>
+                        <p class="lawyer-specialty">Direito Penal</p>
+                        <a href="advogado-juliana.html" class="btn-arrow">Ver Perfil <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="lawyers-slider-controls">
+                <button class="prev-lawyer" aria-label="Advogado anterior"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-lawyer" aria-label="Próximo advogado"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="view-all-team" data-aos="fade-up">
+                <a href="equipe.html" class="btn-secondary">Ver Equipe Completa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Depoimentos</span>
+                <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+                <p class="section-description">A satisfação de nossos clientes é o nosso maior reconhecimento</p>
+            </div>
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"O escritório Silva & Associados foi fundamental para a resolução do meu caso. Profissionais extremamente competentes e atenciosos que me orientaram em todo o processo com clareza e eficiência."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://i.imgur.com/7oM8TdY.jpg" alt="João Pereira">
+                            </div>
+                            <div class="author-info">
+                                <h4>João Pereira</h4>
+                                <p>Empresário</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Excelente atendimento e resultados surpreendentes. A equipe do Dr. Carlos Silva demonstrou profundo conhecimento jurídico e grande habilidade na condução do nosso processo tributário."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://i.imgur.com/K9XA3mB.jpg" alt="Maria Costa">
+                            </div>
+                            <div class="author-info">
+                                <h4>Maria Costa</h4>
+                                <p>Diretora Financeira</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Trabalhar com a Silva & Associados trouxe segurança jurídica para nossa empresa. Profissionais altamente qualificados que entendem as necessidades do nosso negócio e oferecem soluções eficazes."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="https://i.imgur.com/oCiRnUo.jpg" alt="Roberto Almeida">
+                            </div>
+                            <div class="author-info">
+                                <h4>Roberto Almeida</h4>
+                                <p>CEO, Empresa XYZ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <img src="https://i.imgur.com/8Klzrj3.png" alt="Silva & Associados">
+                        </div>
+                        <p>Escritório de advocacia especializado em soluções jurídicas personalizadas para pessoas físicas e jurídicas, com foco em resultados e excelência no atendimento.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h3 class="footer-title">Links Rápidos</h3>
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="sobre.html">O Escritório</a></li>
+                            <li><a href="areas-atuacao.html">Áreas de Atuação</a></li>
+                            <li><a href="equipe.html">Equipe</a></li>
+                            <li><a href="blog.html">Publicações</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h3 class="footer-title">Contato</h3>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000, 15º andar<br>Bela Vista, São Paulo - SP</li>
+                            <li><i class="fas fa-phone"></i> (11) 3456-7890</li>
+                            <li><i class="fas fa-envelope"></i> contato@silvaadvocacia.com.br</li>
+                            <li><i class="fas fa-clock"></i> Segunda a Sexta: 9h às 18h</li>
+                        </ul>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h3 class="footer-title">Newsletter</h3>
+                        <p>Inscreva-se para receber novidades, artigos e atualizações jurídicas.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Seu e-mail" required>
+                            <button type="submit" class="btn-secondary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Silva & Associados Advocacia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
